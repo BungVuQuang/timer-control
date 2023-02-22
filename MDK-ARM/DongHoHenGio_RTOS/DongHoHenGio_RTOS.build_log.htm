@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hi Bungdz, ssgs, LIC=WHYH9-42W5B-UHQ8H-W2L1R-SJ4CJ-3L66A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+D:\STM32_codeCubeMX\DongHoHenGio_RTOS\MDK-ARM\DongHoHenGio_RTOS.uvprojx
+Project File Date:  02/02/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'DongHoHenGio_RTOS'
+compiling main.c...
+../MyLib/datapackProc.h(66): warning:  #1295-D: Deprecated declaration InitRxDataPackage - give arg types
+  void InitRxDataPackage();
+../MyLib/datapackProc.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif // HEADER_GUARD
+../Core/Src/main.c(207): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str0, &Font_7x10, 1);
+../Core/Src/main.c(210): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str, &Font_11x18, 1);
+../Core/Src/main.c(213): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str2, &Font_11x18, 1);
+../Core/Src/main.c(225): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str0, &Font_7x10, 1);
+../Core/Src/main.c(228): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str, &Font_11x18, 1);
+../Core/Src/main.c(231): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str2, &Font_11x18, 1);
+../Core/Src/main.c(254): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str, &Font_11x18, 1);
+../Core/Src/main.c(256): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str2, &Font_11x18, 1);
+../Core/Src/main.c(269): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str0, &Font_7x10, 1);
+../Core/Src/main.c(272): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str, &Font_11x18, 1);
+../Core/Src/main.c(275): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str2, &Font_11x18, 1);
+../Core/Src/main.c(298): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str, &Font_11x18, 1);
+../Core/Src/main.c(300): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Puts (str2, &Font_11x18, 1);
+../Core/Src/main.c(321): warning:  #177-D: variable "temp_tick"  was declared but never referenced
+  		static uint32_t temp_tick = 0;
+../Core/Src/main.c(997): warning:  #177-D: variable "xTicksToWait"  was declared but never referenced
+  		const TickType_t xTicksToWait = 100 / portTICK_PERIOD_MS;
+../Core/Src/main.c(1151): warning:  #223-D: function "ets_delay_us" declared implicitly
+  		ets_delay_us(500);
+../Core/Src/main.c: 18 warnings, 0 errors
+linking...
+.\DongHoHenGio_RTOS\DongHoHenGio_RTOS.axf: Error: L6218E: Undefined symbol ets_delay_us (referred from main.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\DongHoHenGio_RTOS\DongHoHenGio_RTOS.axf" - 1 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_DongHoHenGio_RTOS
+  C:\Users\Bungdz\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\Bungdz\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
