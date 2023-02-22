@@ -46,9 +46,9 @@ Project này nhằm tạo ra 1 thiết bị hẹn giờ bật tắt thiết bị
 ---
 
 # Demo hệ thống
-![pcb](./image/pcb.png)
+![pcb](./image/pcb.jpg)
 
-[![Alt Text](https://img.youtube.com/vi/DSw107MmITY/0.jpg)](https://www.youtube.com/watch?v=DSw107MmITY)
+[![Video Demo](https://img.youtube.com/vi/lcisVRhVbSQ/0.jpg)](https://www.youtube.com/watch?v=lcisVRhVbSQ)
 
 
 ---
